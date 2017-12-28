@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ed8802</color>
+    <color name="colorPrimaryDark">#c96c00</color>
+    <color name="colorAccent">#b9b9b9</color>
+    <color name="BG">#9b5800</color>
+    <color name="BGG">#d29a1e</color>
+    <color name="bgmerah">#ca0000</color>
+    <color name="bgbiru">#001bca</color>
+    <color name="bghijau">#00ca11</color>
+
+    <color name="bgmerah1">#960000</color>
+    <color name="bgbiru1">#001079</color>
+    <color name="bghijau1">#007e0b</color>
+    <color name="bgtext">#c7c7c7</color>
+    <color name="back">#808080</color>
+    <color name="bgs">#bebebe</color>
+</resources>

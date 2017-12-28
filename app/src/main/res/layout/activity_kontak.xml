@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgtext"
+    tools:context="id.co.rumahpanti.rumahpanti2.KontakActivity">
+
+    <LinearLayout
+        android:id="@+id/linTop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:background="@color/BG"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_marginRight="20dp"
+            android:id="@+id/ivHome"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:src="@drawable/logohome1"
+            android:layout_weight="1"
+            />
+
+
+    </LinearLayout>
+
+
+
+      <LinearLayout
+          android:layout_marginTop="50dp"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:layout_weight="1"
+              android:paddingBottom="2dp">
+
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:onClick="telp">
+                  <android.support.v7.widget.CardView
+                      android:layout_marginLeft="5dp"
+                      android:layout_marginRight="5dp"
+                      android:layout_marginTop="5dp"
+                      android:layout_marginBottom="5dp"
+                      xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      card_view:cardCornerRadius="2dp"
+                      card_view:cardElevation="2dp"
+                      card_view:contentPadding="5dp"
+                      card_view:cardBackgroundColor="@color/colorPrimary">
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical"
+                          android:gravity="center">
+
+                          <ImageView
+                              android:layout_width="match_parent"
+                              android:layout_height="80dp"
+                              android:src="@drawable/phone"/>
+
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                              android:text="Telp : 0721 0000"
+                              android:textColor="#fff"
+                              android:paddingBottom="5dp"/>
+                      </LinearLayout>
+                  </android.support.v7.widget.CardView>
+
+              </LinearLayout>
+
+
+
+              <!--- batas -->
+
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:onClick="whatsapp">
+
+                  <android.support.v7.widget.CardView
+                      android:layout_marginLeft="5dp"
+                      android:layout_marginRight="5dp"
+                      android:layout_marginTop="5dp"
+                      android:layout_marginBottom="5dp"
+                      xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      card_view:cardCornerRadius="2dp"
+                      card_view:cardElevation="2dp"
+                      card_view:contentPadding="5dp"
+                      card_view:cardBackgroundColor="@color/colorPrimary">
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical"
+                          android:layout_gravity="center"
+                          android:gravity="center">
+                          <ImageView
+                              android:layout_width="100dp"
+                              android:layout_height="80dp"
+                              android:src="@drawable/internet"/>
+
+                          <TextView
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:text="WA : 0898 000 "
+                              android:gravity="center"
+                              android:textColor="#fff"
+                              android:paddingBottom="5dp"/>
+
+                      </LinearLayout>
+
+                  </android.support.v7.widget.CardView>
+              </LinearLayout>
+
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:layout_weight="1"
+              android:paddingBottom="2dp">
+
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:onClick="facebook">
+                  <android.support.v7.widget.CardView
+                      android:layout_marginLeft="5dp"
+                      android:layout_marginRight="5dp"
+                      android:layout_marginTop="5dp"
+                      android:layout_marginBottom="5dp"
+                      xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      card_view:cardCornerRadius="2dp"
+                      card_view:cardElevation="2dp"
+                      card_view:contentPadding="5dp"
+                      card_view:cardBackgroundColor="@color/colorPrimary">
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical"
+                          android:gravity="center">
+
+                          <ImageView
+                              android:layout_width="match_parent"
+                              android:layout_height="80dp"
+                              android:src="@drawable/internet"/>
+
+                          <TextView
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                              android:text="Facebook"
+                              android:textColor="#fff"
+                              android:paddingBottom="5dp"/>
+                      </LinearLayout>
+                  </android.support.v7.widget.CardView>
+
+              </LinearLayout>
+
+
+
+              <!--- batas -->
+
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:onClick="twitter">
+
+                  <android.support.v7.widget.CardView
+                      android:layout_marginLeft="5dp"
+                      android:layout_marginRight="5dp"
+                      android:layout_marginTop="5dp"
+                      android:layout_marginBottom="5dp"
+                      xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      card_view:cardCornerRadius="2dp"
+                      card_view:cardElevation="2dp"
+                      card_view:contentPadding="5dp"
+                      card_view:cardBackgroundColor="@color/colorPrimary">
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical"
+                          android:layout_gravity="center"
+                          android:gravity="center">
+                          <ImageView
+                              android:layout_width="100dp"
+                              android:layout_height="80dp"
+                              android:src="@drawable/internet"/>
+
+                          <TextView
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:text="Twitter"
+                              android:gravity="center"
+                              android:textColor="#fff"
+                              android:paddingBottom="5dp"/>
+
+                      </LinearLayout>
+
+                  </android.support.v7.widget.CardView>
+              </LinearLayout>
+
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:layout_weight="1"
+              android:paddingTop="2dp">
+
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:onClick="website">
+                  <android.support.v7.widget.CardView
+                      android:layout_marginLeft="5dp"
+                      android:layout_marginRight="5dp"
+                      android:layout_marginTop="5dp"
+                      android:layout_marginBottom="5dp"
+                      xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      card_view:cardCornerRadius="2dp"
+                      card_view:cardElevation="2dp"
+                      card_view:contentPadding="5dp"
+                      card_view:cardBackgroundColor="@color/colorPrimary">
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical"
+                          android:gravity="center">
+
+                          <ImageView
+                              android:layout_width="match_parent"
+                              android:layout_height="80dp"
+                              android:src="@drawable/internet"/>
+
+                          <TextView
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                              android:text="Website"
+                              android:textColor="#fff"
+                              android:paddingBottom="5dp"/>
+                      </LinearLayout>
+                  </android.support.v7.widget.CardView>
+
+              </LinearLayout>
+
+
+
+              <!--- batas -->
+
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:onClick="instagram">
+
+                  <android.support.v7.widget.CardView
+                      android:layout_marginLeft="5dp"
+                      android:layout_marginRight="5dp"
+                      android:layout_marginTop="5dp"
+                      android:layout_marginBottom="5dp"
+                      xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      card_view:cardCornerRadius="2dp"
+                      card_view:cardElevation="2dp"
+                      card_view:contentPadding="5dp"
+                      card_view:cardBackgroundColor="@color/colorPrimary">
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical"
+                          android:layout_gravity="center"
+                          android:gravity="center">
+                          <ImageView
+                              android:layout_width="100dp"
+                              android:layout_height="80dp"
+                              android:src="@drawable/internet"/>
+
+                          <TextView
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:text="Instagram"
+                              android:gravity="center"
+                              android:textColor="#fff"
+                              android:paddingBottom="5dp"/>
+
+                      </LinearLayout>
+
+                  </android.support.v7.widget.CardView>
+              </LinearLayout>
+
+
+          </LinearLayout>
+
+      </LinearLayout>
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

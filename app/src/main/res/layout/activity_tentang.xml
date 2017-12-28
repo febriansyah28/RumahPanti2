@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.co.rumahpanti.rumahpanti2.TentangActivity"
+    android:background="@color/bgtext">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <android.support.v7.widget.CardView
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    card_view:cardCornerRadius="2dp"
+                    card_view:cardElevation="2dp"
+                    card_view:contentPadding="5dp"
+                    card_view:cardBackgroundColor="@color/colorPrimary">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:paddingTop="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/logosp"
+                            android:paddingBottom="20dp"
+                            android:layout_weight="1"/>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#fff"
+                            android:paddingBottom="10dp"/>
+
+
+                        <TextView
+                            android:paddingTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Tentang Pengembang"
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:textSize="15dp"
+                            android:paddingBottom="10dp"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#fff"
+                            android:paddingBottom="10dp"/>
+
+                        <TextView
+                            android:paddingTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Programmer"
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:textSize="12dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="M.Taufik Nurhuda"
+                            android:textColor="#fff"
+                            android:textStyle="italic"
+                            android:textSize="10dp"
+                            android:paddingBottom="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Designer"
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:textSize="12dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="M.Taufik Nurhuda"
+                            android:textColor="#fff"
+                            android:textStyle="italic"
+                            android:textSize="10dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Deni Pratama"
+                            android:textColor="#fff"
+                            android:textStyle="italic"
+                            android:textSize="10dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Muhammad Arsi"
+                            android:textColor="#fff"
+                            android:textStyle="italic"
+                            android:textSize="10dp"
+                            android:paddingBottom="20dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Ide Aplikasi"
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:textSize="12dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Febriansyah"
+                            android:textColor="#fff"
+                            android:textStyle="italic"
+                            android:textSize="10dp"
+                            android:paddingBottom="20dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Pengelola Data Panti"
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:textSize="12dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Rizki Sedyono"
+                            android:textColor="#fff"
+                            android:textStyle="italic"
+                            android:textSize="10dp"
+                            android:paddingBottom="0dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Febriansyah"
+                                android:textColor="#fff"
+                                android:textStyle="italic"
+                                android:textSize="10dp"
+                                android:paddingBottom="20dp"/>
+
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="TIM Support"
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:textSize="12dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Deni Lukman"
+                            android:textColor="#fff"
+                            android:textStyle="italic"
+                            android:textSize="10dp"
+                            android:paddingBottom="20dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

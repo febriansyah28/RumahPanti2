@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bgtext">
+
+    <LinearLayout
+        android:id="@+id/linTop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:background="@color/BG"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_marginRight="20dp"
+            android:id="@+id/ivHome"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:src="@drawable/logohome1"
+            android:layout_weight="1"
+            />
+
+
+    </LinearLayout>
+
+
+<GridView
+    android:id="@+id/grid_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:numColumns="2"
+    android:padding="2dp"
+    android:footerDividersEnabled="false"
+    android:background="@color/bgtext">
+</GridView>
+
+</LinearLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="id.co.rumahpanti.rumahpanti2.InfakActivity">
+
+    <LinearLayout
+        android:id="@+id/linTop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:background="@color/BG"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_marginRight="20dp"
+            android:id="@+id/ivHome"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:src="@drawable/logohome1"
+            android:layout_weight="1"
+            />
+
+
+    </LinearLayout>
+
+<LinearLayout
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="60dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:id="@+id/rbank"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Transfer Bank RUmah Panti (BNI) "/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="          Nomor Rekening : "/>
+                        <TextView
+                            android:id="@+id/norek"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="000000000000"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="          Atas Nama           : "/>
+                        <TextView
+                            android:id="@+id/nambank"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="M.Taufik nurhuda"/>
+
+                    </LinearLayout>
+
+
+
+                </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RadioGroup>
+
+
+    <LinearLayout
+        android:paddingTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Keterangan "/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:layout_gravity="top|left"
+            android:scrollbars="vertical"
+            android:background="#fff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Upload Bukti Transfer  "/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:text="Upload"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bghijau1"
+        android:text="Kirim"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
