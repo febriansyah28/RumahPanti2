@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.co.rumahpanti.rumahpanti2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="26" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/rumahpantilog"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="id.co.rumahpanti.rumahpanti2.PantiActivity" />
+        <activity android:name="id.co.rumahpanti.rumahpanti2.InfakActivity" />
+        <activity android:name="id.co.rumahpanti.rumahpanti2.KontakActivity" />
+        <activity
+            android:name="id.co.rumahpanti.rumahpanti2.SplashScreen"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="id.co.rumahpanti.rumahpanti2.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="id.co.rumahpanti.rumahpanti2.Musikpad" />
+        <activity android:name="id.co.rumahpanti.rumahpanti2.Bantuan" />
+        <activity android:name="id.co.rumahpanti.rumahpanti2.UserActivity" />
+        <activity
+            android:name="id.co.rumahpanti.rumahpanti2.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="id.co.rumahpanti.rumahpanti2.GalleryActivity" />
+        <activity android:name="id.co.rumahpanti.rumahpanti2.TentangActivity" />
+        <activity android:name="id.co.rumahpanti.rumahpanti2.ShowPanti" />
+        <activity android:name="id.co.rumahpanti.rumahpanti2.ShowGallery" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>
